@@ -67,8 +67,8 @@ def traffic_lights():
         red_light_second = 0
         green_light_second = 0
         yellow_light_second = 1
-        gate_1 = 0          #
-        gate_2 = 1          #
+        gate_1 = 0
+        gate_2 = 1
         display_lights_first()
         display_lights_second()
         time.sleep(5)
@@ -81,8 +81,8 @@ def traffic_lights():
         green_light_second = 0
         yellow_light_second = 0
 
-        gate_1 = 1      #
-        gate_2 = 0      #
+        gate_1 = 1
+        gate_2 = 0
         display_lights_first()
         display_lights_second()
         time.sleep(15)
